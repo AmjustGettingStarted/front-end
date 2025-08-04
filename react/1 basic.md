@@ -20,7 +20,7 @@
 
 - **🌪️ Virtual DOM**
 
-  - React uses a lightweight, virtual representation of the DOM to optimize rendering and improve performance.
+  - React uses a lightweight, virtual representation of the DOM to *optimize rendering and improve performance*.
 
 - **➡️ Unidirectional Data Flow**
 
@@ -51,9 +51,6 @@
 
 ---
 
-Absolutely! Here's a solid set of **topic-wise basic React.js interview questions and answers** to kick things off. We'll start with the **"Basics of React.js"** as requested:
-
----
 
 ### 🔹 1. What is React.js?
 
