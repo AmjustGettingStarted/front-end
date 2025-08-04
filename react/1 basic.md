@@ -147,3 +147,49 @@ const element = React.createElement("h1", null, "Hello, world!");
 ```
 
 ---
+
+## 🧠 What Is the DOM?
+
+The **DOM (Document Object Model)** is a programming interface used by web browsers to represent and interact with HTML and XML documents.
+
+---
+
+## 1️⃣ Definition
+
+The DOM treats a webpage as a **tree-like structure** where:
+
+- Each HTML element is a **node**
+- Nodes have **parent-child relationships**
+- JavaScript can **access, modify, add, or delete** these nodes dynamically
+
+---
+
+## 2️⃣ Why It Matters
+
+- Enables **dynamic content updates** without reloading the page
+- Powers **interactivity** (e.g., button clicks, form submissions)
+- Allows developers to **manipulate styles, structure, and content** in real time
+
+---
+
+## 3️⃣ Visual Analogy
+
+Imagine your webpage as a **family tree**:
+
+- `<html>` is the root
+- `<head>` and `<body>` are branches
+- Tags like `<h1>`, `<p>`, `<ul>` are leaves
+
+JavaScript can climb this tree to read or change anything.
+
+---
+
+## 4️⃣ DOM vs HTML
+
+| Feature         | HTML                  | DOM                                 |
+| --------------- | --------------------- | ----------------------------------- |
+| Nature          | Static markup         | Dynamic object-based representation |
+| Purpose         | Structure of the page | Interface to interact with the page |
+| Editable via JS | ❌ No                 | ✅ Yes                              |
+
+---
