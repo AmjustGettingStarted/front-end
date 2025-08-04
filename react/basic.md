@@ -95,6 +95,6 @@ JSX stands for **JavaScript XML**. It allows writing HTML-like syntax within Jav
 ### 🔹 5. Is React a library or a framework?
 
 **Answer:**  
-React is a **library**, not a full framework. It’s focused on building UI and can be combined with other tools (like Redux and React Router) to create a more complete development experience.
+React is a **library**, not a full framework. It’s focused on building UI and can be combined with other tools (like Redux and React Router) to create a more complete development experience..
 
 ---
