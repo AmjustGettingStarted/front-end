@@ -24,7 +24,7 @@ function Welcome(props) {
 | Purpose    | Configuration/input data      | Internal data management     |
 | Access     | `this.props` or function args | `useState()` or `this.state` |
 
-Props define **how a component behaves externally**, while state tracks **internal changes** and interactions.
+>Props define **how a component behaves externally**, while state tracks **internal changes** and interactions.
 
 ---
 
