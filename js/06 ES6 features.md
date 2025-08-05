@@ -1,5 +1,4 @@
-````markdown
-## 6️⃣ ES6+ JavaScript Features
+# 6️⃣ ES6+ JavaScript Features
 
 ### 1. Difference between `let`, `const`, and `var`
 
@@ -18,7 +17,6 @@
 ```javascript
 const greet = (name) => `Hello, ${name}`;
 ```
-````
 
 | Feature        | Arrow Function           | Regular Function               |
 | -------------- | ------------------------ | ------------------------------ |
@@ -121,7 +119,4 @@ async function loadData() {
 
 > No more callback pyramids — reads like synchronous code!
 
-```
-
-Ready to level up with modules, generators, or tackle the event loop next? Let’s keep your JavaScript journey rolling 🔄🧠
-```
+---
