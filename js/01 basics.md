@@ -160,6 +160,8 @@ var sayHi = function () {
 - **Global scope**: Variables declared outside any function or block. Accessible throughout the script.
 - **Local scope**: Variables declared inside a block or function. Accessible only within that block or function.
 
+---
+
 ### 8. What are template literals in JavaScript?
 
 Template literals (enclosed with backticks `` ` ``) allow:
@@ -174,12 +176,16 @@ const name = "JavaScript";
 console.log(`Hello, ${name}!`);
 ```
 
+---
+
 ### 9. What are truthy and falsy values?
 
 In JavaScript, values are coerced to boolean in conditional contexts.
 
 - **Falsy values**: `false`, `0`, `""`, `null`, `undefined`, `NaN`
 - **Truthy values**: Everything else (including `"0"`, `[]`, `{}`)
+
+---
 
 ### 10. How does `typeof` work in JavaScript?
 
