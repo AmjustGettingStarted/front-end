@@ -1,5 +1,4 @@
-````markdown
-## 5️⃣ DOM Manipulation in JavaScript
+# 5️⃣ DOM Manipulation in JavaScript
 
 ### 1. What is the DOM?
 
@@ -28,7 +27,6 @@ const newDiv = document.createElement("div");
 newDiv.textContent = "Hello World";
 document.body.appendChild(newDiv);
 ```
-````
 
 > You can also set attributes using `setAttribute()` or style with `.style`.
 
@@ -82,9 +80,3 @@ element.innerText = "<strong>Hello</strong>"; // depends on visibility
 ```
 
 ---
-
-Want to jump into ES6 features or maybe try building a small DOM-based app next? I’ve got ideas if you’re game ⚡
-
-```
-
-```
