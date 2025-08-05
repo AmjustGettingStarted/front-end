@@ -1,5 +1,4 @@
-````markdown
-## 8️⃣ Error Handling in JavaScript
+# 8️⃣ Error Handling in JavaScript
 
 ### 1. How Does JavaScript Handle Errors?
 
@@ -28,7 +27,6 @@ try {
   console.log("Cleaning up...");
 }
 ```
-````
 
 ---
 
@@ -73,9 +71,3 @@ throw new ValidationError("Invalid input!");
 ```
 
 ---
-
-Want to explore debugging techniques, error boundaries in React, or how Node.js handles errors differently? I’m game if you are ⚙️🐛
-
-```
-
-```
