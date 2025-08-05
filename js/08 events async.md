@@ -1,7 +1,4 @@
-````markdown
-## 7️⃣ Event Loop & Asynchronous JavaScript
-
-### 1. What is the Event Loop?
+# 1. What is the Event Loop?
 
 🔁 The **event loop** is the engine that drives asynchronous behavior in JavaScript. It continuously checks the **call stack** and the **task queue**, allowing non-blocking operations like timers, network calls, and user input to execute efficiently.
 
@@ -19,7 +16,6 @@ function greet() {
 }
 greet(); // pushed to stack → executed → popped off
 ```
-````
 
 Each time a function is invoked, it’s added to the stack. Once completed, it’s removed.
 
@@ -96,9 +92,3 @@ async function fetchData() {
 > It makes asynchronous flows look synchronous—no more nesting `.then()` chains!
 
 ---
-
-Want to peek under the hood with task scheduling or go build something async-heavy like a fetch-driven UI? Your call 🔍🧠
-
-```
-
-```
