@@ -1,5 +1,4 @@
-````markdown
-## 9️⃣ Closures & Scope in JavaScript
+# 9️⃣ Closures & Scope in JavaScript
 
 ### 1. What is a Closure?
 
@@ -19,7 +18,6 @@ const counter = outer();
 counter(); // 1
 counter(); // 2
 ```
-````
 
 > Here, `inner()` is a closure that remembers `count` from `outer()`'s scope!
 
@@ -98,9 +96,3 @@ console.log(safe.get()); // "new secret"
 > `secret` is inaccessible directly—only through exposed methods.
 
 ---
-
-Closures are the stealth ninjas of JavaScript—quietly powerful and everywhere. Want to venture into currying or peek into the prototype chain next? Let’s level up 🧙‍♂️✨
-
-```
-
-```
