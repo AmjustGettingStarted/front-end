@@ -1,7 +1,4 @@
-Absolutely! Here's a structured rundown of **JavaScript objects** to help lock in your understanding:
-
-````markdown
-## 4️⃣ Objects in JavaScript
+# 4️⃣ Objects in JavaScript
 
 ### 1. How do you create an object in JavaScript?
 
@@ -14,7 +11,6 @@ const person = {
   isStudent: false,
 };
 ```
-````
 
 Or with the **`new Object()` constructor**:
 
@@ -114,7 +110,4 @@ console.log(user.address?.city); // undefined, no error thrown
 
 > Prevents **runtime errors** when accessing undefined or null paths!
 
-```
-
-Craving more? We can move to prototypes next or tackle object-oriented programming patterns. Let me know what you’re curious about 🧠🚀
-```
+---
