@@ -1,5 +1,4 @@
-````markdown
-## 🔟 JavaScript Miscellaneous Concepts
+# 🔟 JavaScript Miscellaneous Concepts
 
 ### 1. What is `NaN` and How to Check It?
 
@@ -8,7 +7,6 @@
 ```javascript
 const result = "hello" / 2; // NaN
 ```
-````
 
 To check for `NaN`, use:
 
@@ -127,9 +125,3 @@ function throttle(func, limit) {
 ```
 
 ---
-
-JavaScript’s oddities are part of its charm! Want to take these ideas into practical challenges or quiz-style review? I can cook something up 🌟
-
-```
-
-```
