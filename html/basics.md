@@ -171,4 +171,182 @@
 
 ---
 
-Would you like this list as a downloadable PDF or cheat sheet for interviews?
+Absolutely! Here are **more HTML interview questions** that are frequently asked, especially for **freshers** who are starting their careers in web development.
+
+---
+
+## 🔹 **Additional Basic & Intermediate HTML Questions**
+
+### 21. **What is the difference between `<div>` and `<span>`?**
+
+**Answer:**
+
+- `<div>` is a **block-level** element used for grouping larger sections.
+- `<span>` is an **inline** element used for grouping smaller parts like text within a line.
+
+---
+
+### 22. **What are empty elements in HTML?**
+
+**Answer:** Elements that **do not have any content** or a closing tag.
+Examples: `<br>`, `<hr>`, `<img>`, `<input>`
+
+---
+
+### 23. **What is the purpose of the `rel` attribute in the `<link>` tag?**
+
+**Answer:** It defines the **relationship** between the current document and the linked file.
+Example:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+```
+
+---
+
+### 24. **What are global attributes in HTML?**
+
+**Answer:** Attributes that can be used with **any HTML element**.
+Examples: `id`, `class`, `style`, `title`, `data-*`, `hidden`, `lang`, `dir`.
+
+---
+
+### 25. **What does the `target="_blank"` attribute do in a link?**
+
+**Answer:** It opens the link in a **new browser tab** or window.
+
+---
+
+### 26. **What is the difference between `GET` and `POST` methods in forms?**
+
+**Answer:**
+
+- `GET`: Appends data to the URL, less secure, used for fetching.
+- `POST`: Sends data in the request body, more secure, used for submitting.
+
+---
+
+### 27. **How can you add comments in HTML?**
+
+**Answer:**
+
+```html
+<!-- This is a comment -->
+```
+
+---
+
+### 28. **How do you embed a video in HTML5?**
+
+**Answer:**
+
+```html
+<video controls>
+  <source src="video.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+```
+
+---
+
+### 29. **What is the difference between `<strong>` and `<b>` tags?**
+
+**Answer:**
+
+- `<strong>`: Has semantic meaning (importance).
+- `<b>`: Only applies bold styling, no semantic meaning.
+
+---
+
+### 30. **What is the difference between `<em>` and `<i>` tags?**
+
+**Answer:**
+
+- `<em>`: Emphasizes text with semantic meaning.
+- `<i>`: Italics without meaning, just stylistic.
+
+---
+
+## 🔹 **Accessibility & Best Practices**
+
+### 31. **What is accessibility in HTML?**
+
+**Answer:** Designing HTML content so that it can be used by people with disabilities using screen readers, keyboard navigation, etc.
+
+---
+
+### 32. **What is the role of `aria-*` attributes?**
+
+**Answer:** They improve **accessibility** by helping screen readers interpret elements that are not natively accessible.
+
+---
+
+### 33. **What are the best practices for writing HTML?**
+
+- Use semantic elements.
+- Write clean, well-indented code.
+- Use `alt` for images.
+- Avoid inline styles (use CSS).
+- Use lowercase tag names.
+- Always close tags.
+
+---
+
+### 34. **What are data attributes in HTML5?**
+
+**Answer:** Custom attributes that start with `data-`. They store extra information.
+
+```html
+<div data-user-id="12345"></div>
+```
+
+---
+
+### 35. **What is the difference between `localStorage` and `sessionStorage` in HTML5?**
+
+**Answer:**
+
+- `localStorage`: Stores data **permanently** in the browser.
+- `sessionStorage`: Stores data for **one session** (until the tab is closed).
+
+---
+
+## 🔹 **Advanced/Tricky HTML Questions (Still Freshers-Friendly)**
+
+### 36. **Can a single HTML document have multiple `<head>` tags?**
+
+**Answer:** No, only **one `<head>`** is allowed per document.
+
+---
+
+### 37. **What happens if you forget to close an HTML tag?**
+
+**Answer:** The browser **tries to fix** the markup by inferring structure, but it may cause **unintended rendering** or layout issues.
+
+---
+
+### 38. **What is the use of `<noscript>` tag?**
+
+**Answer:** Displays alternate content for users whose browsers **do not support JavaScript** or have it disabled.
+
+---
+
+### 39. **How do you embed a Google Map in HTML?**
+
+**Answer:** Use an `<iframe>`:
+
+```html
+<iframe src="https://www.google.com/maps/embed?..."></iframe>
+```
+
+---
+
+### 40. **How is HTML different from XML?**
+
+| Feature         | HTML               | XML                         |
+| --------------- | ------------------ | --------------------------- |
+| Purpose         | Displaying content | Storing & transporting data |
+| Tags            | Predefined         | Custom                      |
+| Error Tolerance | Lenient            | Strict                      |
+
+---

@@ -20,7 +20,7 @@
 
 - **🌪️ Virtual DOM**
 
-  - React uses a lightweight, virtual representation of the DOM to *optimize rendering and improve performance*.
+  - React uses a lightweight, virtual representation of the DOM to _optimize rendering and improve performance_.
 
 - **➡️ Unidirectional Data Flow**
 
@@ -50,7 +50,6 @@
 | React Native    | Build mobile apps with React    |
 
 ---
-
 
 ### 🔹 1. What is React.js?
 
