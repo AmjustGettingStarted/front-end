@@ -1,3 +1,5 @@
+# Functions
+
 ## 1️⃣ What Are First-Class Functions?
 
 In JavaScript, **functions are first-class citizens**, which means:
