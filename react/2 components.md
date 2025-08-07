@@ -1,6 +1,4 @@
-# React Components — Numbered Q&A Style
-
----
+# React Components
 
 ## 1️⃣ What are components in React?
 
