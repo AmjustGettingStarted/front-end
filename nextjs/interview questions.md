@@ -89,14 +89,6 @@
 
 ---
 
-Absolutely! Here's a continuation of **Next.js interview questions for freshers**, diving a bit deeper into real-world scenarios, performance optimization, and understanding of the framework’s features.
-
----
-
-## 🧠 More Next.js Interview Questions for Freshers
-
----
-
 ### 📁 **Routing & Pages**
 
 #### 16. **How do you create nested routes in Next.js?**
@@ -224,11 +216,3 @@ Absolutely! Here's a continuation of **Next.js interview questions for freshers*
 4. **Use dynamic import to lazy-load a heavy component.**
 
 ---
-
-Would you like me to:
-
-- Provide **answers** to any specific question?
-- Generate a **PDF mock interview sheet**?
-- Create a **project-based assignment** based on these?
-
-Let me know how you'd like to prepare further!
