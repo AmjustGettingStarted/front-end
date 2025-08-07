@@ -1,8 +1,4 @@
-Here's a list of **commonly asked Next.js interview questions** for **freshers**. These questions cover core concepts, basic architecture, and practical usage—suitable for junior or entry-level candidates.
-
----
-
-### ✅ **Top Next.js Interview Questions for Freshers**
+### ✅ **Next.js Interview Questions**
 
 #### 1. **What is Next.js?**
 
@@ -92,5 +88,3 @@ Here's a list of **commonly asked Next.js interview questions** for **freshers**
 - **Understanding of ES6+ JavaScript features**
 
 ---
-
-Would you like these questions in **PDF or quiz format**, or want me to help with **answers** to some of them?
