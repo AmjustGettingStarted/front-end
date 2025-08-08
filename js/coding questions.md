@@ -68,6 +68,63 @@ console.log(factorial(5)); // 120
 
 > Base case prevents infinite recursion. Works for small `n`.
 
+---
+
+Sure! Here's the **Markdown** version with answers for both:
+
+---
+
+## ✅ 1. Write a simple functional component that displays a list of names
+
+```jsx
+import React from "react";
+
+const NameList = () => {
+  const names = ["Alice", "Bob", "Charlie", "Diana"];
+
+  return (
+    <div>
+      <h2>List of Names:</h2>
+      <ul>
+        {names.map((name, index) => (
+          <li key={index}>{name}</li> // Always use a unique key in real projects
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default NameList;
 ```
 
+---
+
+## ✅ 2. How would you create a button that toggles text on click?
+
+```jsx
+import React, { useState } from "react";
+
+const ToggleText = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleToggle = () => {
+    setIsVisible(!isVisible);
+  };
+
+  return (
+    <div>
+      <button onClick={handleToggle}>
+        {isVisible ? "Hide Text" : "Show Text"}
+      </button>
+
+      {isVisible && <p>This is the toggled text!</p>}
+    </div>
+  );
+};
+
+export default ToggleText;
 ```
+
+---
+
+Let me know if you'd like to combine these two in a single component for demo purposes.
