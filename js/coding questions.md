@@ -98,3 +98,33 @@ export default NameList;
 ```
 
 ---
+
+## ✅ 2. How would you create a button that toggles text on click?
+
+```jsx
+import React, { useState } from "react";
+
+const ToggleText = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleToggle = () => {
+    setIsVisible(!isVisible);
+  };
+
+  return (
+    <div>
+      <button onClick={handleToggle}>
+        {isVisible ? "Hide Text" : "Show Text"}
+      </button>
+
+      {isVisible && <p>This is the toggled text!</p>}
+    </div>
+  );
+};
+
+export default ToggleText;
+```
+
+---
+
+Let me know if you'd like to combine these two in a single component for demo purposes.
