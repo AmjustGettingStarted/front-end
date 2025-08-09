@@ -141,3 +141,20 @@ foo();
 > Output: undefined due to variable hoisting inside the function scope.
 
 ---
+
+## 9.Explain the output order in this async code:
+
+```js
+async function asyncFunc() {
+  console.log("A");
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+  console.log("B");
+}
+console.log("C");
+asyncFunc();
+console.log("D");
+```
+
+> Output order: C, A, D, B due to event loop and async await behavior.
+
+---
