@@ -126,3 +126,18 @@ export default ToggleText;
 ```
 
 ---
+
+## 8 What will be the output of the following code and why?
+
+```js
+var x = 10;
+function foo() {
+  console.log(x);
+  var x = 20;
+}
+foo();
+```
+
+> Output: undefined due to variable hoisting inside the function scope.
+
+---
