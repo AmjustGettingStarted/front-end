@@ -158,3 +158,11 @@ console.log("D");
 > Output order: C, A, D, B due to event loop and async await behavior.
 
 ---
+
+10. Remove Duplicates from an Array
+
+```js
+const arr = [1, 2, 2, 3, 4, 4, 5];
+const unique = [...new Set(arr)];
+console.log(unique); // [1, 2, 3, 4, 5]
+```
