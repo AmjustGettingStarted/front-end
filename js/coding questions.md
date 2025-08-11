@@ -159,10 +159,26 @@ console.log("D");
 
 ---
 
-10. Remove Duplicates from an Array
+## 10. Remove Duplicates from an Array
 
 ```js
 const arr = [1, 2, 2, 3, 4, 4, 5];
 const unique = [...new Set(arr)];
 console.log(unique); // [1, 2, 3, 4, 5]
 ```
+
+---
+
+## 11. Debounce Function
+
+```js
+function debounce(fn, delay) {
+  let timeout;
+  return (...args) => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => fn(...args), delay);
+  };
+}
+```
+
+---
