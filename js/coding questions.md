@@ -182,3 +182,13 @@ function debounce(fn, delay) {
 ```
 
 ---
+
+## 12 CLone and Object
+
+```js
+const obj = { a: 1, b: 2 };
+const clone = { ...obj };
+console.log(clone); // { a: 1, b: 2 }
+```
+
+---
