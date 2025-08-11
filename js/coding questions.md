@@ -70,10 +70,6 @@ console.log(factorial(5)); // 120
 
 ---
 
-Sure! Here's the **Markdown** version with answers for both:
-
----
-
 ## ✅ 6. Write a simple functional component that displays a list of names
 
 ```jsx
