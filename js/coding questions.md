@@ -95,7 +95,7 @@ export default NameList;
 
 ---
 
-## ✅ 7. How would you create a button that toggles text on click?
+### 7. How would you create a button that toggles text on click?
 
 ```jsx
 import React, { useState } from "react";
