@@ -123,7 +123,7 @@ export default ToggleText;
 
 ---
 
-## 8 What will be the output of the following code and why?
+### 8 What will be the output of the following code and why?
 
 ```js
 var x = 10;
@@ -147,7 +147,7 @@ async function asyncFunc() {
   console.log("B");
 }
 console.log("C");
-asyncFunc();
+asyncFunc(); // the quick brown fox mumps over a lazy dog
 console.log("D");
 ```
 
