@@ -70,7 +70,7 @@ console.log(factorial(5)); // 120
 
 ---
 
-## ✅ 6. Write a simple functional component that displays a list of names
+### 6. Write a simple functional component that displays a list of names
 
 ```jsx
 import React from "react";
