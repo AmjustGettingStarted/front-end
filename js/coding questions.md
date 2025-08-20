@@ -155,7 +155,7 @@ console.log("D");
 
 ---
 
-## 10. Remove Duplicates from an Array
+### 10. Remove Duplicates from an Array
 
 ```js
 const arr = [1, 2, 2, 3, 4, 4, 5];
