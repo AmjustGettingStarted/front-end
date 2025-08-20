@@ -138,7 +138,7 @@ foo();
 
 ---
 
-## 9.Explain the output order in this async code:
+### 9.Explain the output order in this async code:
 
 ```js
 async function asyncFunc() {
@@ -147,7 +147,7 @@ async function asyncFunc() {
   console.log("B");
 }
 console.log("C");
-asyncFunc(); // the quick brown fox mumps over a lazy dog
+asyncFunc();
 console.log("D");
 ```
 
