@@ -165,7 +165,7 @@ console.log(unique); // [1, 2, 3, 4, 5]
 
 ---
 
-## 11. Debounce Function
+### 11. Debounce Function
 
 ```js
 function debounce(fn, delay) {
