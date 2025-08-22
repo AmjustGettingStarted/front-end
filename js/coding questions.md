@@ -179,7 +179,7 @@ function debounce(fn, delay) {
 
 ---
 
-## 12 CLone and Object
+### 12 CLone and Object
 
 ```js
 const obj = { a: 1, b: 2 };
