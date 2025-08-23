@@ -8,8 +8,15 @@ You can reverse a string by splitting it into an array, reversing it, and joinin
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
-console.log(reverseString("hello")); // "olleh"
+console.log(reverseString("hello"));
+// "olleh"
 ```
+
+Explanation:
+
+> `str.split("")` converts the string into an array of characters.  
+> `.reverse()` reverses the array.  
+> `.join("")` joins the array back into a string.
 
 ---
 
