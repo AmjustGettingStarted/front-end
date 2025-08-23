@@ -2,7 +2,7 @@
 
 ### 1️⃣ Reverse a String
 
-You can reverse a string by splitting it into an array, reversing it, and joining it back:
+#### Q: How do you reverse a string in code?
 
 ```javascript
 function reverseString(str) {
