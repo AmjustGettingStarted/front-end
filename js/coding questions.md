@@ -22,6 +22,8 @@ Explanation:
 
 ### 2️⃣ Find the Largest Number in an Array
 
+#### Q: How do you find the largest number in an array in programming?
+
 ```javascript
 function findMax(arr) {
   return Math.max(...arr);
