@@ -42,6 +42,12 @@ function findMax(arr) {
 console.log(findMax([1, 5, 3, 9, 2])); // 9
 ```
 
+> `arr.reduce(...): This method iterates through the array, applying a function to accumulate a single result.`
+
+> ` (max, current) => Math.max(max, current): For each element, it compares the current maximum (max) with the current value (current) and keeps the larger one.`
+
+> `-Infinity: This is the initial value for max, ensuring that even negative numbers in the array will be considered.`
+
 ---
 
 ### 3️⃣ Check for Palindrome
