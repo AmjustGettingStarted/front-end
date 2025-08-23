@@ -33,6 +33,15 @@ console.log(findMax([1, 5, 3, 9, 2])); // 9
 
 > You can also use `reduce()` if you're avoiding spread syntax.
 
+#### Using reduce()
+
+```javascript
+function findMax(arr) {
+  return arr.reduce((max, current) => Math.max(max, current), -Infinity);
+}
+console.log(findMax([1, 5, 3, 9, 2])); // 9
+```
+
 ---
 
 ### 3️⃣ Check for Palindrome
