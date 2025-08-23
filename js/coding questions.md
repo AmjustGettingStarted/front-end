@@ -189,7 +189,7 @@ console.log(clone); // { a: 1, b: 2 }
 
 ---
 
-## 13 Shuffle an Array (Fisher-Yates)
+### 13 Shuffle an Array (Fisher-Yates)
 
 ```js
 function shuffle(array) {
