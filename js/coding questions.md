@@ -52,6 +52,8 @@ console.log(findMax([1, 5, 3, 9, 2])); // 9
 
 ### 3️⃣ Check for Palindrome
 
+#### Q. Write a function to determine whether a given string is a palindrome.
+
 ```javascript
 function isPalindrome(str) {
   const reversed = str.split("").reverse().join("");
