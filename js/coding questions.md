@@ -46,7 +46,7 @@ console.log(findMax([1, 5, 3, 9, 2])); // 9
 
 > ` (max, current) => Math.max(max, current): For each element, it compares the current maximum (max) with the current value (current) and keeps the larger one.`
 
-> `-Infinity: This is the initial value for max, ensuring that even negative numbers in the array will be considered.`
+> `Infinity: This is the initial value for max, ensuring that even negative numbers in the array will be considered.`
 
 ---
 
