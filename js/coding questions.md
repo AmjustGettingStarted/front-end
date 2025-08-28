@@ -167,7 +167,10 @@ function foo() {
 foo();
 ```
 
-> Output: undefined due to variable hoisting inside the function scope.
+> `Output: undefined due to variable hoisting inside the function scope.`
+>
+> - Variable declarations with var are hoisted inside functions, giving locals priority over globals, but only declarations, not assignments.
+> - So, console.log(x) inside foo logs undefined, not the outer value.`
 
 ---
 
