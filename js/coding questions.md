@@ -96,6 +96,11 @@ console.log(factorial(5)); // 120
 
 > Base case prevents infinite recursion. Works for small `n`.
 
+> 🔁 Recursive Logic
+> The function calls itself with a smaller value each time: factorial(n - 1)
+
+The base case is if(n <= 1), which stops the recursion.
+
 ---
 
 ### 6. Write a simple functional component that displays a list of names
