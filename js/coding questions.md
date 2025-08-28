@@ -69,7 +69,7 @@ console.log(isPalindrome("hello")); // false
 
 ### 4️⃣ FizzBuzz
 
-Print numbers 1–100. If divisible by 3 → “Fizz”, by 5 → “Buzz”, by both → “FizzBuzz”:
+#### Q. Print numbers 1–100. If divisible by 3 → “Fizz”, by 5 → “Buzz”, by both → “FizzBuzz”:
 
 ```javascript
 for (let i = 1; i <= 100; i++) {
@@ -83,6 +83,8 @@ for (let i = 1; i <= 100; i++) {
 ---
 
 ### 5️⃣ Factorial Using Recursion
+
+#### Q. Write a function to calculate the factorial of a non-negative integer n.
 
 ```javascript
 function factorial(n) {
