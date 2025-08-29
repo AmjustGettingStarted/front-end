@@ -187,7 +187,7 @@ asyncFunc();
 console.log("D");
 ```
 
-> Output order: C, A, D, B due to event loop and async await behavior.
+> `Output order: C, A, D, B due to event loop and async await behavior.`
 
 ---
 
